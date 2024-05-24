@@ -11,9 +11,9 @@ function move(type){
     
     if(type === "right")
         {
-            if(carposition<=70)
+            if(carposition <= 70)
                 {
-                    carposition += 1;
+                    carposition += 2;
                     car.style.left = carposition+"%";
                 }
         }
@@ -21,7 +21,7 @@ function move(type){
         {
             if(carposition >= 20)
                 {
-                    carposition -= 1;
+                    carposition -= 2;
                     car.style.left = carposition+"%";
                 }
         }
